@@ -1,0 +1,51 @@
+# ── .NET ──────────────────────────────────
+
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# publish output (users build themselves)
+publish/
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ── IDE / Editor ──────────────────────────
+
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+*.orig
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# ── OS ────────────────────────────────────
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# ── Logs ──────────────────────────────────
+
+crash.log
+*.log
+
+# ── Misc ──────────────────────────────────
+
+*.tmp
+*.bak
