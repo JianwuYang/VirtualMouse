@@ -51,7 +51,7 @@ The window is always-on-top and semi-transparent, so you can see content behind 
 ### Build & Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/VirtualMouse.git
+git clone https://github.com/JianwuYang/VirtualMouse.git
 cd VirtualMouse
 dotnet run
 ```
@@ -98,7 +98,7 @@ dotnet publish -c Release -o ./publish
 ### 构建 & 运行
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/VirtualMouse.git
+git clone https://github.com/JianwuYang/VirtualMouse.git
 cd VirtualMouse
 dotnet run
 ```
