@@ -71,6 +71,8 @@ public partial class MainWindow : Window
     private void Window_Loaded(object sender, RoutedEventArgs e)
     {
         _hwnd = new System.Windows.Interop.WindowInteropHelper(this).Handle;
+        Icon = new System.Windows.Media.Imaging.BitmapImage(
+            new Uri("pack://application:,,,/VirtualMouse.ico"));
     }
 
     // ── 红点固定位置 ──────────────────────────────────────────

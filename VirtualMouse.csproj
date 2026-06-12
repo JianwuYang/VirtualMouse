@@ -7,6 +7,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>VirtualMouse</AssemblyName>
+    <ApplicationIcon>VirtualMouse.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="VirtualMouse.ico" />
+  </ItemGroup>
 
 </Project>
